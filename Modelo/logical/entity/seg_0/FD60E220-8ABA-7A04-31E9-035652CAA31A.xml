@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD60E220-8ABA-7A04-31E9-035652CAA31A" name="Region">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-11 17:31:06 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="0A8FBA10-8F56-28A4-C432-9A714DBB03FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idRegion" id="6D69741C-C390-DA68-EC73-7C7333714563">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-11 17:32:11 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="0A8FBA10-8F56-28A4-C432-9A714DBB03FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="90C103B5-D98A-7B4C-3B18-9340A419315F">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-11 17:32:30 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="0A8FBA10-8F56-28A4-C432-9A714DBB03FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPais" id="D0F53489-0369-BC79-997C-AEFB76C06591">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-11 17:33:05 UTC</createdTime>
+<generatorID>6FAFE048-06BD-3B4F-2383-4F3125F5D209</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="0A8FBA10-8F56-28A4-C432-9A714DBB03FF" value="true"/>
+</engineerTo>
+<referedAttribute>EDDF2876-D5F7-ACB9-305F-DEDE7D051181</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7DED8242-3421-8F9F-3D26-7A2888798B3D" name="Region PK">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-11 17:32:20 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="0A8FBA10-8F56-28A4-C432-9A714DBB03FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D69741C-C390-DA68-EC73-7C7333714563</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

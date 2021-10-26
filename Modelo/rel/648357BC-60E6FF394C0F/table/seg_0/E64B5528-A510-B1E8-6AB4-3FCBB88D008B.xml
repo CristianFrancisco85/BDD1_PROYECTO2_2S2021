@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E64B5528-A510-B1E8-6AB4-3FCBB88D008B" name="Resultado">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>61D9D749-CA79-24B5-7004-BB59E59C18E3</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idResultado" id="D37FC9F2-96AC-3CA2-1FAE-F979A8306688">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>B9CA204F-78E3-F933-EF57-279AEC82A78F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Analfabetas" id="BF7F2D3E-FFA8-1334-C37E-1525B56BD487">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>C247B03F-C122-6121-0B72-01ED7131D8D1</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alfabetas" id="AFF43C7C-A8D7-1E8B-1D40-C7F607884920">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>EBA86412-52B7-DE67-CBFA-7D75F2774218</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Primaria" id="C38F9063-4D54-7742-DF3A-D97DA22D918A">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>10BBA94F-19DD-F59A-EA23-758DCA899BBC</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Medio" id="6B5A651E-F02B-6C89-F80C-FA6129B5C14F">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>FCB2E74E-193A-7574-D7B3-2413D8C1F3DD</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Universitarios" id="02E399BD-F5AD-46AC-17EB-1E61A056BCAA">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>956EDBBE-2CCD-EFD7-606A-1C86217BB056</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sexo" id="ABEB9528-C08E-BB14-1B43-B92F98212BCF">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>653CF814-198B-220D-B2BB-E75F220D9D61</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Eleccion_idEleccion" id="2888C8F4-435D-49C0-1466-472F6197C4D6">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>C3311A81-841B-7D58-78D4-7417C7BAFD1D</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58AA0E65-2B6B-4BFD-12C1-CF4326607DA2" referredColumn="A682887B-DCB4-4E84-DE8D-2CA5DC173B79"/>
+</associations>
+</Column>
+<Column name="Raza_idRaza" id="10D91564-8494-DA3C-8051-9E8EE4708DB5">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>19CF060F-1AC4-0761-93FB-1FD1386D6616</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7FBF981-19C4-8F01-49CD-134C5C9FB08F" referredColumn="FC9C73D6-38B8-7788-B15F-89C986AE62A7"/>
+</associations>
+</Column>
+<Column name="Partido_idPartido" id="46178427-0470-7BC8-99A3-16917BBD0BEB">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>30522B71-CD2F-3488-8A5C-6F3AFD13CD2C</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9599DF4B-B975-B37B-BCC4-1C83DFE9CC31" referredColumn="1B519F13-B3E5-CB11-8BD9-32029515DD83"/>
+</associations>
+</Column>
+<Column name="Municipio_idMunicipio" id="AA292D49-9EE5-84D6-7249-3D01BCC82AA3">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>BD6AAE25-934C-12BE-2A91-B00EB9739059</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AD0CE44-9DE6-B5D2-CD61-5914F4E1E31A" referredColumn="76B47F82-574E-1B52-60F4-F484CD512338"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD34D6C7-4E95-37AF-47C6-270B8C354AE6" name="Resultado_PK">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>2E9B5E8E-08F8-03B7-9C51-6C7311534A21</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D37FC9F2-96AC-3CA2-1FAE-F979A8306688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83A7CBC8-06F6-21F4-7B54-4584E82BFAEA" name="Resultado_Eleccion_FK">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>4C76E880-AFC3-F135-AB1F-214328935749</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2888C8F4-435D-49C0-1466-472F6197C4D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38928C39-710E-7C9C-5B24-2A1320C6E540" name="Resultado_Municipio_FK">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>E56C6B8D-7CEE-10E9-B2B5-31536EF876A5</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA292D49-9EE5-84D6-7249-3D01BCC82AA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97F3473F-FF43-0C98-F774-F7572BB4A1B9" name="Resultado_Partido_FK">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>16CE6238-94CE-2B9F-BEBE-886C5974B697</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46178427-0470-7BC8-99A3-16917BBD0BEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3D8F363-FC8C-0051-7279-37533CACC660" name="Resultado_Raza_FK">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>E5DE1933-3956-DB46-87C8-90A8BFB06E2D</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10D91564-8494-DA3C-8051-9E8EE4708DB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

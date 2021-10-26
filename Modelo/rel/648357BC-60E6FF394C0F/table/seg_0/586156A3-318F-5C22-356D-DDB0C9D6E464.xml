@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="586156A3-318F-5C22-356D-DDB0C9D6E464" name="Region">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>FD60E220-8ABA-7A04-31E9-035652CAA31A</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idRegion" id="2C3B5690-5B1C-AD47-8EBE-1DA64A98F25F">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>6D69741C-C390-DA68-EC73-7C7333714563</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="7EDD1536-5C7D-2724-3220-66D461026B43">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>90C103B5-D98A-7B4C-3B18-9340A419315F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pais_idPais" id="0AFA291D-3572-4A67-218A-4A4A1E844D50">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>D0F53489-0369-BC79-997C-AEFB76C06591</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0401673C-5607-9C71-34BA-CD61E1052EAF" referredColumn="2EC2D5F7-158E-361A-748E-C10413E8174B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4ABF7DCD-CB3C-1DCB-FDDC-7274965183C4" name="Region_PK">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>7DED8242-3421-8F9F-3D26-7A2888798B3D</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C3B5690-5B1C-AD47-8EBE-1DA64A98F25F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61F78078-3F4B-A15B-09E4-C3CB42E2645F" name="Region_Pais_FK">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-13 00:17:28 UTC</createdTime>
+<generatorID>6FAFE048-06BD-3B4F-2383-4F3125F5D209</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AFA291D-3572-4A67-218A-4A4A1E844D50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

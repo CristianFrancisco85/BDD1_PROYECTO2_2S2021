@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B16BA6BD-249D-1920-626A-3356457F33BD" name="Raza">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-11 22:41:21 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="0A8FBA10-8F56-28A4-C432-9A714DBB03FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idRaza" id="C56419F8-1BE3-4D50-1D20-A4BF115C6D89">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-11 22:43:03 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="0A8FBA10-8F56-28A4-C432-9A714DBB03FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="02611CEE-6FB7-10ED-2612-D738E24564EB">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-11 22:43:13 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="0A8FBA10-8F56-28A4-C432-9A714DBB03FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4ACA5E62-08FA-8732-36CB-7B58F4432DF8" name="Raza PK">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-11 22:43:12 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="0A8FBA10-8F56-28A4-C432-9A714DBB03FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C56419F8-1BE3-4D50-1D20-A4BF115C6D89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

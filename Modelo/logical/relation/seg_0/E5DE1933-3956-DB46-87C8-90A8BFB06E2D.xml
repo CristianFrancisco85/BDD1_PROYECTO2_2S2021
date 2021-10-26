@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Raza_Resultado" directorySegmentName="seg_0" id="E5DE1933-3956-DB46-87C8-90A8BFB06E2D">
+<createdBy>Cristian</createdBy>
+<createdTime>2021-10-11 22:44:23 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="0A8FBA10-8F56-28A4-C432-9A714DBB03FF" value="true"/>
+</engineerTo>
+<sourcePk>4ACA5E62-08FA-8732-36CB-7B58F4432DF8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B16BA6BD-249D-1920-626A-3356457F33BD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>61D9D749-CA79-24B5-7004-BB59E59C18E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

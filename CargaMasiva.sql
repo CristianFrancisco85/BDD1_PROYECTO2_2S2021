@@ -1,0 +1,56 @@
+USE bdd1;
+
+-- ******************************************************************
+-- Se crea tabla temporal para la carga de datos desde el archivo CSV
+-- ******************************************************************
+DROP TEMPORARY TABLE IF EXISTS CSVTable;
+
+CREATE TEMPORARY TABLE CSVTable(
+idTemp INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+NOMBRE_ELECCION VARCHAR(200) NOT NULL,
+AÑO_ELECCION INT NOT NULL,
+PAIS VARCHAR(200) NOT NULL,
+REGION VARCHAR(200) NOT NULL,
+DEPTO VARCHAR(200) NOT NULL,
+MUNICIPIO VARCHAR(200) NOT NULL,
+PARTIDO VARCHAR(200) NOT NULL,
+NOMBRE_PARTIDO VARCHAR(200) NOT NULL,
+SEXO VARCHAR(200) NOT NULL,
+RAZA VARCHAR(200) NOT NULL,
+ANALFABETOS INT NOT NULL,
+ALFABETOS INT NOT NULL,
+PRIMARIA INT NOT NULL,
+MEDIO INT NOT NULL,
+UNIVERSITARIOS INT NOT NULL
+);
+
+-- ******************************************************************
+-- Se carga datos del archivo CSV en la tabla temporal CSVTable
+-- ******************************************************************
+
+LOAD DATA LOCAL INFILE 'C:/Users/Cristian/Downloads/ICE-Fuente CSV8.csv' 
+INTO TABLE CSVTable
+FIELDS TERMINATED BY ';' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES(
+NOMBRE_ELECCION,
+AÑO_ELECCION,
+PAIS,
+REGION,
+DEPTO,
+MUNICIPIO,
+PARTIDO,
+NOMBRE_PARTIDO,
+SEXO,
+RAZA,
+ANALFABETOS,
+ALFABETOS,
+PRIMARIA,
+MEDIO,
+UNIVERSITARIOS
+);
+-- SELECT * FROM CSVTable;
+
+
+
