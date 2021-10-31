@@ -86,10 +86,6 @@ HAVING Raza='INDIGENAS';
 -- ******************************************************************
 -- Consulta 5
 -- ******************************************************************
-
--- ******************************************************************
--- Consulta 6
--- ******************************************************************
 SELECT Pais.Nombre AS Pais,Departamento.Nombre AS Departamento,Municipio.Nombre AS Municipio,SUM(Universitarios) AS Total FROM Resultado
 INNER JOIN Municipio ON Municipio.idMunicipio = Resultado.idMunicipio
 INNER JOIN Departamento ON Departamento.idDepartamento = Municipio.idDepartamento
@@ -98,6 +94,11 @@ INNER JOIN Pais ON Pais.idPais = Region.idPais
 GROUP BY Pais,Departamento,Municipio
 HAVING Total>SUM(Primaria)*0.25 AND Total<SUM(Medio)*0.30
 ORDER BY Total DESC;
+
+-- ******************************************************************
+-- Consulta 6
+-- ******************************************************************
+
 
 -- ******************************************************************
 -- Consulta 7
